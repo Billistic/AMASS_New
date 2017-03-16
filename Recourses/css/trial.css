@@ -1,0 +1,38 @@
+/*Profile*/
+#profileInf{
+	color:white;
+	margin:auto;
+	width:100%;
+}
+
+#profileInf h1{
+	width:80%;
+	float:right;
+	color:black;
+}
+
+#profileInf form{
+	margin-top:15px;
+	width:80%;
+	padding-top: 20px;
+	float:right;
+}
+
+#profileInf input{
+	padding:4px;
+	height:40px;
+	width:80%;
+	margin-bottom: 10px;
+}
+
+hr{
+	border:#e8491d 1px solid;
+	width:80%;
+	margin-bottom:10px;
+	margin-left:0px;
+}
+
+#visual {
+	height: 800px;
+	width: 100%;
+}

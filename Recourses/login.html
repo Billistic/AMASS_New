@@ -1,0 +1,70 @@
+<!DOCTYPE html?>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="reliable car security for a safe and comfortable lifestyle">
+		<meta name="keywords" content="car, security, arduino, CIT, DCOMM, Louise Walshe, Conor Twomey, Ryan Meany, Joshua Nuttall">
+		<meta name="author" content="Joshua Nuttall - R00128796">
+		<title>AMASS | About</title>
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1>Amass Security</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="about.php">About</a></li>
+						<li><a href="services.php">Track</a></li>
+						<li class="current"><a href="login.html">Login</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<section id="track">
+			<div class="container">
+				<h1>Track by Registration</h1>
+				<form action="services.php" method="post">
+					<input type="text" name = 'reg' id ="tracking_reg" placeholder="Enter Registration..."> 
+					<button type="submit" id ="track_submit" class="track_button">Track</button>
+				</form>
+			</div>
+		</section>
+		
+		<section id="main">
+			<div class="container">
+				<div id="sign-in">
+						<h1>Sign in:</h1>
+						<form action="login.php" method = "post">
+							<input type="text" name="sign_in_uname" placeholder="Username..." required ></input>
+							<input type="password" name="sign_in_pwd" placeholder="Password..." required ></input>
+						<button type="submit" class="track_button">Enter</button>
+					</form>
+				</div>
+				
+				<div id="register" class="dark">
+					<h1>Register:</h1>
+					<form action="register.php" method = "post">
+						<input type="email" name = "registerEmail" placeholder="Enter Email..." required > </input>
+						<input type="text" name = "register_uname" placeholder="Username..." required > </input>
+						<input type="text" name = "register_fn" placeholder="First Name..." required ></input>
+						<input type="text" name = "register_ln" placeholder="Last Name..." required ></input>
+						<input type="text" name = "register_mob" placeholder="Mobile..." required ></input>
+						<input type="password" name = "register_pwd" placeholder="Password..." required > </input>
+						<input type="submit" class="track_button"></input>
+					</form>
+				</div>
+			</div>			
+		</section>
+		
+		<footer>
+			<p>Amass Security, Copyright &copy; 2017</p>
+		</footer>
+		
+	</body>
+</html>
